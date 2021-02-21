@@ -1,0 +1,7 @@
+{
+  "name": "firstIonicMyTabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
