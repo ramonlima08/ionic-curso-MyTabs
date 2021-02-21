@@ -1,0 +1,23 @@
+#Comandos para criação de Apps Ionic
+
+#Antes de qualquer coisa o Ionic tem toda documentação em: https://ionicframework.com/docs/
+
+#Seguir instalação recomendada no docs
+
+#Instalar o Ionic
+npm install -g @ionic/cli
+
+#Criar o priemiro projeto do tipo TABS
+ionic start myApp tabs
+
+#Rodar seu App
+cd myApp
+ionic serve
+
+#Documentação do IONIC cli (comandos do IONIC)
+https://ionicframework.com/docs/cli/
+
+#Criar uma nova tela/pagina
+ionic generate page Feed
+(gera automaticamente uma pasta com os arquivos necessários para uma nova tela)
+
