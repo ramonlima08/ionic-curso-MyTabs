@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { MoovieService } from '../moovie.service';
 
 @Component({
@@ -17,7 +18,7 @@ export class FeedPage implements OnInit {
   }
   public lista_filmes = new Array<any>();
 
-  constructor(private MoovieService: MoovieService) { }
+  constructor(private MoovieService: MoovieService, private router: Router) { }
 
   public somaDoisNumeros(num1:number, num2:number): number{
     let res=null;
@@ -40,6 +41,11 @@ export class FeedPage implements OnInit {
         console.log(response);
         this.lista_filmes = response.results;
     })
+  }
+
+  public showMovieClick(id:number): void {
+    //alert('cliquei aqui '+id);
+    this.router.navigate(['details',{id:id}])
   }
 
 }

@@ -17,11 +17,16 @@
       </ion-label>
       
     </ion-item>
+
     <img src="https://www.themoviedb.org/t/p/w500/{{ filme.backdrop_path }}" />
     
     <ion-card-content>
       {{ filme.overview }}
     </ion-card-content>
+
+    <ion-item > 
+      <ion-button (click)="showMovieClick(filme.id)" color="secondary" >Ver +</ion-button>
+    </ion-item>
   </ion-card>
 
 

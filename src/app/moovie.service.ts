@@ -23,4 +23,10 @@ export class MoovieService {
     );
   }
 
+  getMovieIdData(id:number){
+    return this.http.get(
+      this.url_base+"movie/"+id+"?api_key="+this.api_key+"&language="+this.language
+    );
+  }
+
 }

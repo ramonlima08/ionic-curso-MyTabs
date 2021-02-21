@@ -5,7 +5,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',               //Essa é a rota principal, a primeira a ser chamada
-    redirectTo: 'intro',    //Nesse caso, estou redirecionando a rota principal para 'intro'
+    redirectTo: 'tabs',    //Nesse caso, estou redirecionando a rota principal para 'intro'
     pathMatch: 'full'
   },
   {
@@ -19,6 +19,10 @@ const routes: Routes = [
   {
     path: 'intro',
     loadChildren: () => import('./intro/intro.module').then( m => m.IntroPageModule)
+  },
+  {
+    path: 'details',
+    loadChildren: () => import('./details/details.module').then( m => m.DetailsPageModule)
   }
 ];
 @NgModule({
