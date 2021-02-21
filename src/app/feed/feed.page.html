@@ -5,25 +5,22 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
+
+  <ion-card *ngFor="let filme of lista_filmes">
     <ion-item>
       <ion-avatar item-start> 
-        <img src="assets/images/avatar.png" alt="{{ user_name }}">
+        <img src="assets/images/avatar.png" alt="{{ filme.title }}">
       </ion-avatar>
       <ion-label class="margin-left">
-        <h2 class="title-card">{{ user_name }}</h2>
-        <p class="date-card">22 de Jan 2022</p>
+        <h2 class="title-card">{{ filme.title }}</h2>
+        <p class="date-card">{{ filme.release_date }}</p>
       </ion-label>
       
     </ion-item>
-    <img src="assets/images/madison.jpg" />
+    <img src="https://www.themoviedb.org/t/p/w500/{{ filme.backdrop_path }}" />
     
     <ion-card-content>
-      <p>E não somente isto, mas também nos gloriamos nas tribulações; sabendo que a tribulação produz a paciência,</p>
-      <p>E a paciência a experiência, e a experiência a esperança.</p>
-      <p>E a esperança não traz confusão, porquanto o amor de Deus está derramado em nossos corações pelo Espírito Santo que nos foi dado.</p>
-
-    <p><strong>Romanos 5:3-5</strong> </p>
+      {{ filme.overview }}
     </ion-card-content>
   </ion-card>
 
