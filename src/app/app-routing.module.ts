@@ -5,7 +5,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',               //Essa é a rota principal, a primeira a ser chamada
-    redirectTo: 'tabs',    //Nesse caso, estou redirecionando a rota principal para 'intro'
+    redirectTo: 'feed',    //Nesse caso, estou redirecionando a rota principal para 'intro'
     pathMatch: 'full'
   },
   {

@@ -1,0 +1,33 @@
+[{
+    "diasemana": "Domingo",
+    "cultos": [{
+      "hora": "07:45",
+      "nome": "Consagração"
+    },{
+      "hora": "09:00",
+      "nome": "Escola Dominical"
+    },{
+      "hora": "10:15",
+      "nome": "Culto Matutino"
+    },{
+      "hora": "18:00",
+      "nome": "Culto Noturno"
+    }
+    ]
+  }, {
+    "diasemana": "Terça-Feira",
+    "cultos": [{
+      "hora": "09:00",
+      "nome": "Manhã de Vitória"
+    },{
+      "hora": "19:15",
+      "nome": "Culto do Cenáculo"
+    }]
+  }, {
+    "diasemana": "Quinta-Feira",
+    "cultos": [{
+      "hora": "19:15",
+      "nome": "Culto Noturno"
+    }]
+  }  
+]
