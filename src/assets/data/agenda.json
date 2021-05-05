@@ -2,10 +2,10 @@
     "diasemana": "Domingo",
     "cultos": [{
       "hora": "07:45",
-      "nome": "Consagração"
+      "nome": "Oração Matinal"
     },{
       "hora": "09:00",
-      "nome": "Escola Dominical"
+      "nome": "Escola Dominical - EBD"
     },{
       "hora": "10:15",
       "nome": "Culto Matutino"
@@ -18,7 +18,7 @@
     "diasemana": "Terça-Feira",
     "cultos": [{
       "hora": "09:00",
-      "nome": "Manhã de Vitória"
+      "nome": "Manhã de Vitória - Prova de Fé"
     },{
       "hora": "19:15",
       "nome": "Culto do Cenáculo"
