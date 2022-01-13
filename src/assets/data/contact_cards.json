@@ -15,8 +15,8 @@
       {
         "id":"3",
         "icon": "help-buoy-outline",
-        "title":"Lorem",
-        "description": "Lorem impsum dollum impsum dollum impsum dollum",
-        "button": "fazer"
+        "title":"Solicitar Visita",
+        "description": "Se você está com dificuldades para ir até a igreja, solicite uma visita que a igreja vai até você. ",
+        "button": "solicitar"
       }
     ]
